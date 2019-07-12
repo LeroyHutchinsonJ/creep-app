@@ -1,0 +1,75 @@
+html{
+    background-color:black;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.inputComponent{
+    height:10vh;
+    min-height:10vh;
+}
+.Details {
+    background-color: #282c34;
+    min-height: 120vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 100%;
+}
+
+.searchBox {
+    position: relative;
+    top:5vh;
+    left:10vh;
+    transform: translate(-50%, -50%);
+    background-color: #2c3e50;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+
+.searchBtn {
+    color: #2ecc71;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.searchText {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.searchBox:hover > .searchText {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchBtn {
+    background: white;
+}
+.fa-search{
+   text-decoration:none;
+}
