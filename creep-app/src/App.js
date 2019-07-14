@@ -9,6 +9,7 @@ function App() {
          <InputBox/>
           <div className="Details">
             <div>Hey</div>
+
             </div>
     </div>
   )
